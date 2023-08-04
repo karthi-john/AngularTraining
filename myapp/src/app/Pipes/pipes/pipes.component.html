@@ -1,0 +1,21 @@
+<div style = "width:100%;">
+    <h2>Uppercase Pipe</h2>
+    <b>{{title | uppercase}}</b><br/>
+    <h2>Lowercase Pipe</h2>
+    <b>{{title | lowercase}}</b>
+    <h2>Currency Pipe</h2>
+    <b>{{6589.23 | currency:"USD"}}</b><br/>
+    <h2>Date pipe</h2>
+    <b>{{todaydate | date:'d/M/y'}}</b><br/>
+    <b>{{todaydate | date:'shortTime'}}</b>
+    <h2>Decimal Pipe</h2>
+    <b>{{ 454.78787814 | number: '3.4-4' }}</b>
+    <h2>Json Pipe</h2>
+    <b>{{ jsonval | json }}</b>
+    <h2>Percent Pipe</h2>
+    <b>{{00.54565 | percent}}</b>
+    <h2>Slice Pipe</h2>
+    <b>{{months | slice:2:6}}</b>
+    <h2>CustomPipe</h2>
+    <b>{{title | customPipe}}</b>
+</div>
